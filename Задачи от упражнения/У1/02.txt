@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class ScannerDemo2
+{
+    public static void main(String[] args)
+    {
+        System.out.println("What is your age?");
+	java.util.Scanner scanner = new java.util.Scanner(System.in);
+	int age = scanner.nextInt();
+	System.out.println("I remember being " + age + " years old!" );
+	System.out.println("Where were you born?");
+	String city = scanner.nextLine();
+	System.out.println("I hope to visit " + city + " some day." );
+    }
+}
